@@ -9,14 +9,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Id"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="16sp"
         android:id="@+id/tvId"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=":"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="16sp"/>
     <TextView
         android:id="@+id/tvName"
@@ -24,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="16sp"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:text="Name"/>
 
     <TextView
@@ -34,7 +34,7 @@
         android:layout_weight="1"
         android:text="Company Name"
         android:textSize="16sp"
-        android:textColor="@color/black"/>
+        android:textColor="@color/white"/>
 
     <ImageView
         android:id="@+id/ivDelete"

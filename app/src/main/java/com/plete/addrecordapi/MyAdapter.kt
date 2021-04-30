@@ -41,7 +41,7 @@ class MyAdapter(val context: Context, var dataList: ArrayList<CEOModel>?): Recyc
         if (position % 2 == 0){
             holder.llmain.setBackgroundColor(ContextCompat.getColor(context, R.color.yellow))
         } else {
-            holder.llmain.setBackgroundColor(ContextCompat.getColor(context, R.color.pink))
+            holder.llmain.setBackgroundColor(ContextCompat.getColor(context, R.color.black))
         }
 
         holder.ivDelete.setOnClickListener {

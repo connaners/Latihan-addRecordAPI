@@ -39,7 +39,7 @@ class MyAdapter(val context: Context, var dataList: ArrayList<CEOModel>?): Recyc
         holder.tvCName.text = item?.company_name.toString()
 
         if (position % 2 == 0){
-            holder.llmain.setBackgroundColor(ContextCompat.getColor(context, R.color.yellow))
+            holder.llmain.setBackgroundColor(ContextCompat.getColor(context, R.color.pink))
         } else {
             holder.llmain.setBackgroundColor(ContextCompat.getColor(context, R.color.black))
         }

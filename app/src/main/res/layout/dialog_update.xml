@@ -58,7 +58,7 @@
             android:layout_height="wrap_content"
             android:text="Update"
             android:padding="10dp"
-            android:textColor="@color/yellow"
+            android:textColor="@color/lightBlue"
             android:foreground="?attr/selectableItemBackgroundBorderless"/>
 
         <TextView
